@@ -1,0 +1,39 @@
+1.¿Cómo se inicializa un repositorio local? (que comando se debe ejecutar?)
+Se utiliza el siguiente comando:
+git init
+
+
+2.Cómo hago para que un directorio deje de ser controlado por git? (que comando se debe ejecutar?)
+Puedes eliminar la carpeta oculta .git con el siguiente comando:
+rm -rf .git
+
+
+
+3.Si agrego un archivo a un directorio que ya está siendo controlado por git, ¿está siendo controlado por git?
+No inmediatamente. Aunque el directorio esté bajo control de versiones, el archivo nuevo no lo estará hasta que lo agregues con git add.
+
+4.¿Qué comando se utiliza para agregar un archivo al repositorio local?
+Se utiliza el comando:
+git add nombre_del_archivo
+O para agregar todos los archivos:
+git add .
+
+
+
+5.¿Cómo determino que archivos fueron modificados? (que comando se debe ejecutar?)
+Se utiliza el comando:
+git status
+
+
+
+6.¿Qué comando se utiliza para hacer un commit?
+Se utiliza el comando:
+git commit -m "mensaje del commit"
+
+
+
+7.En sus propias palabras, ¿qué es un commit?
+Un commit es una captura del estado actual del proyecto. Guarda los cambios realizados en los archivos que han sido agregados con git add, permitiendo llevar un historial de versiones.
+
+
+
