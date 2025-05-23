@@ -1,0 +1,37 @@
+¿Qué es un branch?
+  En Git es una línea de desarrollo independiente
+  
+¿Por qué pueden ser útiles los branches?
+  Los branches son útiles ya que:
+
+Permiten desarrollar nuevas características sin afectar el código estable.
+
+Facilitan el trabajo colaborativo, ya que cada desarrollador puede trabajar en su propia rama.
+
+Ayudan a organizar el flujo de trabajo (por ejemplo, usando Git Flow).
+
+Permiten mantener un historial claro de cambios.
+
+
+¿Cómo se crea una branch?
+se crea con el comando git branch nombre-de-la-rama
+
+¿Cómo se cambia a una branch?
+ con el comando git checkout nombre-de-la-rama
+  
+¿Cómo se elimina una branch?
+  se elimina con el comando git branch -d nombre-de-la-rama
+
+¿Cómo se crea una branch y se cambia a ella en un solo paso?
+ se crea con el comando git checkout -b nombre-de-la-rama
+
+  
+¿Qué es un merge?
+  Un merge es la acción de combinar los cambios de una rama con otra. 
+¿Cómo se realiza un merge?
+  Con el comando git merge nombre-de-la-rama
+
+¿Que es un tag?
+  Es una marca o punto específico en la historia del repositorio
+¿Cómo se crea un tag?
+  Se creara con el comando git tag nombre-del-tag
