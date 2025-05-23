@@ -1,0 +1,28 @@
+¿Qué es un conflicto? Cuando ocurre? ¿Es bueno o malo?
+Un conflicto ocurre cuando Git no puede combinar automáticamente los cambios de dos ramas porque han modificado la misma línea de un archivo o se han hecho cambios incompatibles en el mismo archivo.
+Generalmente durante un:
+
+git merge
+
+git rebase
+
+git cherry-pick
+
+No es malo, es una parte normal del trabajo colaborativo con Git.
+
+Pero requiere atención: el usuario debe resolverlo manualmente para garantizar que el código final sea correcto.
+
+Puede ser un síntoma de falta de comunicación en el equipo o de una mala estrategia de branches si ocurre con demasiada frecuencia.
+
+¿Se puede evitar un conflicto? ¿Cómo?
+No siempre se pueden evitar, pero puedes reducirlos con buenas prácticas:
+
+Actualizar frecuentemente la rama (git pull) para estar al día con los cambios de otros.
+
+Dividir el trabajo: evita que varias personas trabajen en los mismos archivos o funciones al mismo tiempo.
+
+Hacer commits pequeños y frecuentes, que sean fáciles de revisar y fusionar.
+
+Revisar y probar antes de hacer merge.
+
+Usar herramientas de integración continua (CI) para validar automáticamente los merges.
