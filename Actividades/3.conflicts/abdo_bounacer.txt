@@ -1,0 +1,4 @@
+¿Qué es un conflicto? Cuando ocurre? ¿Es bueno o malo?
+Un conflicto es cuando Git no sabe qué cambios elegir porque dos ramas tocaron lo mismo. Pasa al hacer merge y no es malo, pero hay que resolverlo.
+¿Se puede evitar un conflicto? ¿Cómo?
+Se puede evitar si se trabaja en distintas partes del código y se hace git pull seguido para estar al día.
